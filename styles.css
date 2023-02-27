@@ -85,6 +85,43 @@ nav ul li a:hover {
     height: auto;
 }
 
+
+
+.homePageWeb3Container{
+    display: flex;
+     width: 800px;
+     justify-content: center;
+    margin-top: 1rem;
+
+}
+
+.homePageWeb3 p{
+    line-height: 1.5;
+}
+
+
+.homePageWeb3 h1{
+    font-size:3rem;
+   
+}
+
+.homePageWeb3 button{
+    background: hsl(5, 85%, 63%);
+    color:white;
+    padding: 10px 20px;
+    border:none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight:bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+
+    display: inline-block;
+}
+
+
+
 .homwPageNew {
 
     padding: 2rem;
@@ -99,6 +136,8 @@ nav ul li a:hover {
     padding-bottom: 1rem;
     color: hsl(35, 77%, 62%);
 }
+
+
 
 .homwPageNew h2 {
 
