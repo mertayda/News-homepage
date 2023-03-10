@@ -3,11 +3,12 @@
     margin: 0;
     padding: 0;
     font-family: Inter;
+    
 }
 
 
 body{
-   
+   color: black !important;
     width: 100vw;
     
 }
@@ -17,20 +18,15 @@ body{
     flex-direction: column;
     justify-content: space-between;
 
-    justify-content: center;
-    
-    
   
 }
 
 
 
 .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 2rem;
-
+    overflow: hidden;
+    background-color: #333;
+   
 
 }
 
@@ -54,15 +50,17 @@ nav ul {
     margin: 0;
     display: flex;
     align-items: center;
+    color: black;
 
 }
 
 nav ul li {
     margin-left: 1rem;
+    color: black;
 }
 
 nav ul li a {
-    color: #fff;
+    color: black;
     text-decoration: none;
     font-weight: bold;
     padding: 0.5rem;
@@ -70,8 +68,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #fff;
-    color: #333;
+  color: red;
+  
 }
 
 /* Navbar Section end */
@@ -250,4 +248,40 @@ nav ul li a:hover {
         font-size: 2rem;
     }
 
+
+    .homePage{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 90%;
+        font-size: 1rem;
+      
+        
+    }
+
+   .homePageWeb3Container{
+    display: flex;
+     flex-direction: column;
+     gap: 0;
+     
+   }
+
+
+   .homwPageNew{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+    height: auto;
+    min-width: 100%;
+    margin-top: 1rem;
+   }
+
+
+   .imagesShowcase{
+    display: flex;
+    flex-direction: column;
+}
+
+
 }   
+
+
